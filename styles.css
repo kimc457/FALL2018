@@ -1,0 +1,402 @@
+styles.css
+
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  font-style: italic;
+}
+
+h1:hover{
+  color: white;
+  font-size: 4em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  font-style: italic;
+}
+
+h2{
+  font-size: 1.5em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  letter-spacing: 0.6em;
+}
+
+h3{
+  font-size: 0.8em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  letter-spacing: 0.1em;
+  margin-right: 280px;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+
+
+.headers {
+  color: #FBEEE6 ;
+  letter-spacing: 1em;
+  font-size: 1.5em; 
+  position: fixed;
+  left: 0px;
+  top: 350px; 
+  transform: rotate(-90deg);
+  margin-left: 0px;
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+
+
+body {
+  font-family:"Benton Sans",'Helvetica','Roboto',sans-serif;
+  margin: 50px;
+  background-color:  #D58B7B ; 
+  cursor: url(https://cdn.glitch.com/7b0afbac-81b1-4ff7-9eb5-a13de6ff18d4%2FCIRCLELOGO.png?1524090248411) 4 2, auto;
+  overflow: auto;
+
+}
+    
+/* #F0C9B0  */
+/* #FBEEE6 */
+/* #D58B7B */
+
+.sidebar {
+  margin: 20px; 
+ }
+
+
+.work {
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 30px; 
+  top: 60px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+.work:hover {
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 30px; 
+  top: 60px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+  
+}
+
+
+.about{
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 70px; 
+  top: 70px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+.about:hover {
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 70px;
+  top: 70px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+.resume{
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 100px; 
+  top: 80px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+
+}
+
+.resume:hover {
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  line-height: 3;
+  position: fixed;
+  left: 100px; 
+  top: 80px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+
+.sidebar-1 {
+   margin: 20px; 
+}
+
+.behance {
+  font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 65px; 
+  top: 90px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
+.insta{
+    font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 100px; 
+  top: 100px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
+.link{
+  font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 10px; 
+  top: 95px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
+
+a:link {
+    color: white;
+      }
+      a:visited {
+    color: white;
+      }  
+      a:hover {
+    color: #F75CA2;
+      } 
+      a:link {
+    text-decoration: none;
+      }
+
+      a:visited {
+    text-decoration: none;
+      }
+
+
+
+.mySlides {
+margin: 50px 50px 0px 50px;
+}
+
+
+
+button {
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: lightgray;
+  background-color: white;
+  border: 2px solid lightgray;
+/*   border-radius: 15px; */
+/*   box-shadow: 0 9px #999; */
+  margin: 20px;
+}
+
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: lightgray;
+  transform: translateY(4px);
+}
+
+
+.box {
+  overflow: scroll;
+  transition: all 1.5s;
+  display: inline-block;
+  width: 600px; 
+  height: 300px; 
+  margin: auto;
+}
+
+
+.inside {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.inside:hover{
+opacity: 0.25;
+transition: .5s ease;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 70px;
+  bottom: 50px;
+  left: 70px;
+  right: 50px;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#D58B7B ;
+  border-radius: 100%;
+}
+
+
+.container {
+  position: relative;
+  display: inline-block;
+  text-align:center;
+  width: 400px;
+  height: 400px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: "Benton Sans", 'Roboto', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.scrollbox {
+  width:85%; 
+  background-color:white; 
+  height: 400px; 
+  overflow:scroll; 
+  overflow-style: marquee;
+  margin-left: 100px;
+  margin-top: 60px;
+  display: inline-block;
+  
+}
+
+
+.scrollimages {
+  width: 400px; 
+  height: 400px;
+  float:left;
+  background-color: white;
+}
+
+.scrollimages-flatland {
+  width: 400px; 
+  height: 400px;
+  float:left;
+  background-color: white;
+  margin-top: 50px;
+}
+
+
+.new {
+display: inline-block;
+  margin: 0 auto;
+}
+
+
+.home {
+cursor: all-scroll;
+}
+
+.cursor{
+cursor: url(https://cdn.glitch.com/7b0afbac-81b1-4ff7-9eb5-a13de6ff18d4%2FCIRCLELOGO.png?1524090248411) "10px";
+}
+
+
+
+.drag {
+position: fixed;
+  display: block;
+}
+
+
+
+
+/* .work-work {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 40px; 
+  top: 100px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+.work-work:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 40px; 
+  top: 100px;
+  text-align: left;
+  opacity: 0.5;
+  transform: rotate(-65deg);
+} */
+
+.art{
+  margin-top: 100px;
+}
+
+
+.logospin {
+    position: fixed;
+    cursor: hand;
+    bottom: 10px;
+    right: 20px;
+    width: 90px;
+    height: 110px;
+}
+
+.background{
+  opacity: 1; 
+  font-size: 1em;
+  color: white;
+  line-height: 1.6;
+}
+
+ 
